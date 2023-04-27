@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gruppo";
+}
+.main_block {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.main__block_title {
+  margin: 4vh auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: larger;
+  color: #00a19b;
+  font-size: 2em;
+}
+.main__block_text {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10vh;
+}
+.main__block_right {
+  max-width: 40%;
+  font-size: 1.4rem;
+}
+.main__block_left {
+  max-width: 40%;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gruppo";
+}
+.main__block_table {
+  margin: 8vh auto;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.main__text_portrait {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #00a19b;
+}
+.main__block_tab {
+  max-width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.block__table_left {
+  border-collapse: collapse;
+  max-width: 45%;
+  border: #00a19b solid 3px;
+  /* margin: 2vh; */
+}
+.block__table_left table {
+  margin: 2vh;
+}
+.block__table_right {
+  border-collapse: collapse;
+  max-width: 45%;
+  border: #00a19b solid 3px;
+  /* margin: 2vh; */
+}
+.block__table_right table {
+  margin: 2vh;
+}
+.block__table_centre {
+  max-width: 80%;
+  border: #00a19b solid 3px;
+  margin: 4vh auto;
+}

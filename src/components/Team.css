@@ -1,0 +1,17 @@
+.block__table_centre {
+  max-width: 80%;
+  border: #00a19b solid 3px;
+  margin: 4vh auto;
+}
+.main__block_centre {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.block__table_centre table {
+  margin: 4vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+}
